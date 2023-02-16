@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -c $CFILE -o -$CFILE.o
+c-file=$CFILE | o-file=${c-file%.c}.o | gcc -c $c-file -o $o-file
+
