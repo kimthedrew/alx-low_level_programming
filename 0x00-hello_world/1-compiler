@@ -1,2 +1,2 @@
 #!/bin/bash
-$CFILE="main.c" | main.o="{CFILE%.*}.O" | gcc -c $CFILE -o $main.o
+gcc -c $1 -o ${1%.*}.o
