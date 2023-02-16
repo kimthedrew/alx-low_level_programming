@@ -1,2 +1,2 @@
 #!/bin/bash
-c_file=$CFILE o_file=${c_file.c%}.o gcc -c $c_file -o $_file
+$CFILE="main.c" main.o="{CFILE%.*}.O" gcc -c $CFILE -o $main.o
