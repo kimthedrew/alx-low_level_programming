@@ -8,11 +8,10 @@
  */
 int main(void)
 {
-char a;
-for (a = 0; a < 10; a++)
+int a = 0;
+while (a < 10)
 {
-putchar(a);
+printf("%d\n");
+a = a + 1;
 }
-putchar(\n);
-return (0);
 }
