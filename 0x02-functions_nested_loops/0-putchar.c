@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-
+#include "putchar.h"
 /**
  *_putchar - writes character to the standard output
  *@c: character to be written
@@ -17,6 +17,7 @@ return (write(1, &c, 1));
  *Return: Always 0(success)
  */
 int main(void)
+#include "putchar.h"
 {
 /* Call _putchar to print characters of the strint "_putchar" */
 putchar('_');
