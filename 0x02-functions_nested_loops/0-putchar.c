@@ -10,7 +10,7 @@
  *
  *Return: on success 1 otherwise -1
  */
-int _putchar(char c)
+int _putchar(char c);
 
 #endif /* _PUTCHAR_H */
 
