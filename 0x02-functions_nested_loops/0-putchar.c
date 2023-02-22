@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "putchar.h"
+#ifndef _PUTCHAR_H
+#define _PUTCHAR_H
 /**
  *_putchar - writes character to the standard output
  *@c: character to be written
@@ -8,6 +9,7 @@
  *Return: on success 1 otherwise -1
  */
 int _putchar(char c)
+#endif /* _PUTCHAR_H */
 {
 return (write(1, &c, 1));
 }
