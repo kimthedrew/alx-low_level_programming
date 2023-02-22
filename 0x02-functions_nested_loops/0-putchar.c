@@ -23,15 +23,15 @@ return (write(1, &c, 1));
 int main(void)
 {
 /* Call _putchar to print characters of the strint "_putchar" */
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
 /* Call _putchar to print new line character */
-putchar('\n');
+_putchar('\n');
 return (0);
 }
