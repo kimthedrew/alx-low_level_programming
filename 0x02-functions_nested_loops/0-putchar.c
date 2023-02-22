@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <unistd.h>
 
 #ifndef _PUTCHAR_H
@@ -10,10 +11,14 @@
  *Return: on success 1 otherwise -1
  */
 int _putchar(char c)
+
+#endif /* _PUTCHAR_H */
+
+int _putchar(char c)
 {
 return (write(1, &c, 1));
 }
-#endif /* _PUTCHAR_H */
+
 
 /**
  *main - entry key to the program
