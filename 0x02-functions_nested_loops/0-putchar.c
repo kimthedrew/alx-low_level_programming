@@ -18,6 +18,7 @@ return (write(1, &c, 1));
  */
 int main(void)
 {
+/* Call _putchar to print characters of the strint "_putchar" */
 putchar('_');
 putchar('p');
 putchar('u');
@@ -26,6 +27,7 @@ putchar('c');
 putchar('h');
 putchar('a');
 putchar('r');
+/* Call _putchar to print new line character */
 putchar('\n');
 return (0);
 }
