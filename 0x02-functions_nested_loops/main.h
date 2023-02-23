@@ -5,13 +5,11 @@
 #include <stdio.h>
 
 /* function prototype */
-int add(int num1, int num2);
-int subtract(int num1, int num2);
-int multiply(int num1, int num2);
-int divide(int num1, int num2);
-int print_hello(void);
-int print_name(char *name);
-int print_array(int *arr, int size);
+void print_hello(void);
+void print_name(char *name);
+void print_array(int arr[], int size);
+int add(int a, int b);
+void print_alphabet(void);
 
 /* prototype for _putchar function */
 int _putchar(char c);
