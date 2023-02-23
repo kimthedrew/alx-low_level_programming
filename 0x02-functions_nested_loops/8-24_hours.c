@@ -21,6 +21,6 @@ putchar(b % 10 + '0');
 putchar('\n');
 b++;
 }
-a++
+a++;
 }
 }
