@@ -10,7 +10,7 @@ void print_name(char *name);
 void print_array(int arr[], int size);
 int add(int a, int b);
 void print_alphabet(void);
-void print_alphaber_x10(void);
+void print_alphabet_x10(void);
 
 /* prototype for _putchar function */
 int _putchar(char c);
