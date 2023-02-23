@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "main.h"
+#include "putchar.h"
 
 /**
  *_putchar - writes character to the standard output
