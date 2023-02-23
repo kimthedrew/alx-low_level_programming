@@ -3,12 +3,18 @@
 #include <stdlib.h>
 #include "main.h"
 
+#ifdef _PUTCHAR_H
+#define _PUTCHAR_H
+
 /**
  *_putchar - writes character to the standard output
  *@c: character to be written
  *
  *Return: on success 1 otherwise -1
  */
+int _putchar(char c);
+
+#endif /* _PUTCHAR_H */
 
 int _putchar(char c)
 {
