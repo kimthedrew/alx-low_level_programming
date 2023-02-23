@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#ifndef MAIN_H
+#ifdef MAIN_H
 #define MAIN_H
 
 int add(int num1, int num2);
