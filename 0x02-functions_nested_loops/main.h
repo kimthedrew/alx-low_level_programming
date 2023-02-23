@@ -1,8 +1,8 @@
-#include <stdlib.h>
-#include <stdio.h>
-
 #ifdef MAIN_H
 #define MAIN_H
+
+#include <stdlib.h>
+#include <stdio.h>
 
 /* function prototype */
 int add(int num1, int num2);
