@@ -13,7 +13,7 @@ int a;
 a = 0;
 while (a < 10)
 {
-ch = 'a'
+ch = 'a';
 while (ch <= z)
 {
 _putchar(ch);
