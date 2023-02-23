@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "putchar.h"
+#include "main.h"
 
 /**
  *_putchar - writes character to the standard output
@@ -21,7 +21,7 @@ return (write(1, &c, 1));
  *
  *Return: Always 0(success)
  */
-#include "putchar.h"
+
 int main(void)
 {
 _putchar('_');
