@@ -21,6 +21,7 @@ return (write(1, &c, 1));
  *
  *Return: Always 0(success)
  */
+#include "putchar.h"
 int main(void)
 {
 _putchar('_');
