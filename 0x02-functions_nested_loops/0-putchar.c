@@ -1,24 +1,8 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
- *_putchar - writes character to the standard output
- *@c: character to be written
- *
- *Return: on success 1 otherwise -1
- */
-
-int _putchar(char c)
-{
-return (write(1, &c, 1));
-}
-
-
-/**
- *main - prints "_putchar", followed by a new line
- *
+ *main - print _putchar
+ *is written by mbah
  *Return: Always 0(success)
  */
 
