@@ -11,7 +11,7 @@ void print_array(int arr[], int size);
 int add(int a, int b);
 void print_alphabet(void);
 void print_alphabet_x10(void);
-int islower(int c);
+int _islower(int c);
 
 /* prototype for _putchar function */
 int _putchar(char c);
