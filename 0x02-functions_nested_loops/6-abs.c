@@ -2,15 +2,15 @@
 
 /**
  *_abs - computes the absolute value of an integer
- *@a: value to be checked
+ *@n: value to be checked
  *Return: the absolute value of an int
  */
 
-int _abs(int a)
+int _abs(int n)
 {
-for (a >= 0)
+for (n >= 0)
 {
-return (a);
+return (n);
 }
-return (-a);
+return (-n);
 }
