@@ -14,7 +14,7 @@ a = 0;
 while (a < 10)
 {
 ch = 'a';
-while (ch <= z)
+while (ch <= 'z')
 {
 _putchar(ch);
 ch++;
