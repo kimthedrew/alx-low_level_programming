@@ -5,13 +5,13 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int add(num1, num2);
-int subtract(num1, num2);
-int multiply(num1, num2);
-int divide(num1, num2);
+int add(int num1, int num2);
+int subtract(int num1, int num2);
+int multiply(int num1, int num2);
+int divide(int num1, int num2);
 int print_hello(void);
 int print_name(char *name);
-int print_array(int *arr, size);
+int print_array(int *arr, int size);
 int _putchar(char c);
 
 #endif /* MAIN_H */
