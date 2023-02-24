@@ -32,7 +32,7 @@ aft2 = (aft % 2);
 
 for (i = 92; i < 99; ++i)
 {
-printf(",%lu", aft1 + (aft2 / l));
+printf(", %lu", aft1 + (aft2 / l));
 printf("%lu", aft2 % 1);
 aft1 = aft1 + bef1;
 bef1 = aft1 - bef1;
