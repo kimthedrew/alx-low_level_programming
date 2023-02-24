@@ -8,7 +8,7 @@
 void print_hello(void);
 void print_name(char *name);
 void print_array(int arr[], int size);
-int add(int a, int b);
+int add(int, int);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
