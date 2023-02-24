@@ -11,7 +11,7 @@ unsigned long d = 0, e = 1, f;
 for (b = 0; b < 50; b++)
 {
 f = d + e;
-printf("%lu ", f);
+printf("%lu", f);
 
 d = e;
 e = f;
@@ -19,7 +19,7 @@ e = f;
 if (b == 49)
 printf("\n");
 else
-printf(",");
+printf(", ");
 }
 return (0);
 }
