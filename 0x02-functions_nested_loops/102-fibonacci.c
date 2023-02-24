@@ -7,7 +7,7 @@
 int main(void)
 {
 int b;
-unsigned long d, e, f;
+unsigned long d = 0, e = 1, f;
 for (b = 0; b < 50; b++)
 {
 f = d + e;
