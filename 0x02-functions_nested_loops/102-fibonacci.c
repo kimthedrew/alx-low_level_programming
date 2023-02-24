@@ -14,7 +14,7 @@ f = d + e;
 printf("%lu", f);
 
 d = e;
-f = e;
+e = f;
 
 if (b == 49)
 printf("\n");
