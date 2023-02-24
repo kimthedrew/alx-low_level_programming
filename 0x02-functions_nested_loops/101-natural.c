@@ -13,6 +13,6 @@ for (c = 0; c < 1024; c++)
 if ((c % 3) == 0 || (c % 5) == 0)
 sum += c;
 }
-putchar("%d\n", sum);
+printf("%d\n", sum);
 return (0);
 }
