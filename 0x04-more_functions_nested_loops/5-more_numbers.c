@@ -5,7 +5,7 @@
  *
  * Return: The numbers 0 to 14
  */
-void more_numbers(void);
+void more_numbers(void)
 {
 char n, c;
 int i = 0;
