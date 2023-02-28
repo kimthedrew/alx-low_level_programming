@@ -11,17 +11,17 @@ int main(void)
 int a = 1;
 while (a <= 100)
 {
-if (a % 3 == 0)
+if (a % 3 && a % 5 == 0)
+{
+printf("fizzbuzz");
+}
+else if (a % 3 == 0)
 {
 printf("fizz");
 }
 else if (a % 5 == 0)
 {
 printf("buzz");
-}
-else if (a % 3 && a % 5 == 0)
-{
-printf("fizbuzz");
 }
 else
 {
@@ -31,7 +31,7 @@ if (a != 100)
 {
 putchar(' ');
 }
- a++;
+a++;
 }
 putchar('\n');
 return (0);
