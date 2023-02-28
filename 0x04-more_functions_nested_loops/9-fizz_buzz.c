@@ -25,7 +25,7 @@ printf("fizbuzz");
 }
 else
 {
-printf("%d", a);
+printf("%i", a);
 }
 if (a != 100)
 {
