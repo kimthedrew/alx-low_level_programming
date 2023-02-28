@@ -13,7 +13,7 @@ while (c < n && n > 0)
 d = 0;
 while (d < n)
 {
-putchar('#');
+_putchar('#');
 d++;
 }
 _putchar('\n');
