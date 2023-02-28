@@ -25,7 +25,7 @@ printf("buzz");
 }
 else
 {
-printf("%i", a);
+printf("%d", a);
 }
 if (a != 100)
 {
