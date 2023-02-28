@@ -1,37 +1,38 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - Fizz Buzz code
  *
  * Return: void
  */
+
 int main(void)
 {
-int a = 1;
-while (a <= 100)
+int i = 1;
+
+while (i <= 100)
 {
-if (a % 3 == 0 && a % 5 == 0)
+if (i % 3 == 0 && i % 5 == 0)
 {
-printf("fizzbuzz");
+printf("FizzBuzz");
 }
-else if (a % 3 == 0)
+else if (i % 3 == 0)
 {
-printf("fizz");
+printf("Fizz");
 }
-else if (a % 5 == 0)
+else if (i % 5 == 0)
 {
-printf("buzz");
+printf("Buzz");
 }
 else
 {
-printf("%d", a);
+printf("%i", i);
 }
-if (a != 100)
+if (i != 100)
 {
 putchar(' ');
-}
-a++;
+i++;
 }
 putchar('\n');
 return (0);
