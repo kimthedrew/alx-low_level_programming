@@ -10,7 +10,7 @@ void print_square(int n)
 int c = 0, d;
 while (c < n && n > 0)
 {
-d = 0
+d = 0;
 while (d < n)
 {
 putchar('#');
