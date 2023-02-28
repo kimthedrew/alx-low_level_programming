@@ -32,6 +32,7 @@ printf("%i", i);
 if (i != 100)
 {
 putchar(' ');
+}
 i++;
 }
 putchar('\n');
