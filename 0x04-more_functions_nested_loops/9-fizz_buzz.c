@@ -25,13 +25,13 @@ printf("fizbuzz");
 }
 else
 {
-printf("%a", a);
+printf("%d", a);
 }
 if (a != 100)
 {
 putchar(' ');
 }
-a++
+ a++;
 }
 putchar('\n');
 return (0);
