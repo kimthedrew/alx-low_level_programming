@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * *_strcat - concatenates *src to *dest
@@ -11,7 +11,7 @@ char *_strcat(char *dest, char *src)
 char *p = dest;
 while (*p != '\0')
 {
-p++
+p++;
 }
 while (*src != '\0')
 {
