@@ -8,7 +8,7 @@
  *
  *Return: A pointer to the capitalized string.
  */
-char cap_string(char *str)
+char *cap_string(char *str)
 {
 int index = 0;
 
